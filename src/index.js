@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+//Create React app from Scratch
+//Create app.jsx compnent
+//Create Header.jsx compnent that renders a <header> element to show the keeper app name in h1
+//to show copyright message in a <p> with dynamicay updated year
+//Create a note.jsx component to show a <div> element with a <h1> for a tittle and a <p> for the content
+//make sure that your final website looks like as : https://w00gz.csb.app/
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
